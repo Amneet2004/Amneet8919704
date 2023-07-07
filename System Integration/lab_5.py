@@ -51,8 +51,6 @@ laptop_link = driver.find_element("xpath","/html/body/div[1]/div[2]/div[1]/div[1
 # laptop_link = driver.find_element("By.CSS_SELECTOR","span[data-component-type='s-product-image'] a")
 laptop_link.click()
 
-
-
 # Waiting for the laptop details page to load
 time.sleep(5)
 
