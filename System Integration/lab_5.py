@@ -16,7 +16,6 @@ driver.get("https://www.amazon.ca")
 # Finding the "Accounts & Lists" link and clicking it
 accounts_link = driver.find_element("xpath","/html/body/div[1]/header/div/div[3]/div[13]/div[2]/a/span")
 accounts_link.click()
-
 # Find the email input field and enter your email
 email_input = driver.find_element("id","ap_email")
 email_input.send_keys("amneet9704@conestogac.on.ca")
